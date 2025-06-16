@@ -7,7 +7,7 @@ class Config:
 
     SESSION_NAME = os.environ.get("stkuserbot", ":memory:")
 
-    API_ID = int(os.environ.get("24871620"))
+    API_ID = os.environ.get("24871620")
 
     API_HASH = os.environ.get("e4195bedc71234a179a3d9ac0cad6401")
 
